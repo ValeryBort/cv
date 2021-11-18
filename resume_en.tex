@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} % 40% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Valeria}}}}} % First name
+
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Bortnikova}}}}} % Last name
+
+	\vspace{\baselineskip}
+	{\huge Junior QA Engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\icon{MapMarker}{12}{Moscow, Russia}\\
+	\icon{Phone}{12}{+7 926 510 22 94}\\
+	\icon{At}{12}{\href{mailto:79265102294@ya.ru}{79265102294@ya.ru}}\\
+	\icon{Github}{12}{\href{https://github.com/ValeryBort}{github.com/ValeryBort}}\\
+\end{minipage}
+% \begin{minipage}[t]{0.325\textwidth} % 32.5% of the page width for the second row of icons
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+% 	\icon{Github}{12}{\href{https://github.com/andbortnik}{github.com/andbortnik}}\\
+% 	\icon{Linkedin}{12}{\href{https://linkedin.com/in/andbortnik}{linkedin.com/in/andbortnik}}
+% \end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.6\textwidth}
+	\cvsect{Skills}
+	\vspace{-\baselineskip}
+	\begin{itemize}
+		\setlength\itemsep{0pt}
+		\setlength\itemindent{-\baselineskip}
+		\item{Experience in functional and integrational testing of banking software}
+		\item{Test case generation and managment}
+		\item{Knowledge of SQL and HTML/CSS}
+		\item{Knowledge of test automation of web applications using Python/Pytest/Selenium}
+		\item{Knowledge of test automation of API using Python/Requests and Postman}
+		\item{Bug logging and tracking through Jira}
+
+	\end{itemize}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.35\textwidth}
+	\cvsect{Key words}
+	\vspace{-\baselineskip}
+	\begin{itemize}
+		\setlength\itemsep{0pt}
+		\setlength\itemindent{-\baselineskip}
+		\item{Manual testing}
+		\item{Test automation}
+		\item{SQL, Python, Java, Pytest, Selenium}
+		\item{HTML, CSS}
+		\item{SOAP UI, Postman, REST API, XML, JSON}
+		\item{Git, RedMine, Jira}
+	\end{itemize}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{EXPERIENCE}
+
+\begin{entrylist}
+	\entry
+		{\small{12/2018 -- 3/2019}\\{\footnotesize{3 months}}}
+		{Junior QA Engineer}
+		{Sberbank \slashsep \href{https://www.sberbank.ru}{sberbank.ru}}
+		{
+			\vspace{-\baselineskip}
+			\begin{itemize}
+				\setlength\itemsep{0pt}
+				\setlength\itemindent{-\baselineskip}
+				\item{Manual functional testing of banking software}
+				\item{Integration testing}
+				\item{Maintaining of test cases}
+				\item{Defects logging and tracking through Jira}
+				\item{Re-testing}
+			\end{itemize}
+		}
+	\entry
+		{\small{9/2018 -- 12/2019}\\{\footnotesize{3 months}}}
+		{QA Intern}
+		{GeekBrains}
+		{
+			\vspace{-\baselineskip}
+			\begin{itemize}
+				\setlength\itemsep{0pt}
+				\setlength\itemindent{-\baselineskip}
+				\item{Manual testing of web application Mail.ru Real Estate}
+				\item{Test case preparation, writing wiki-documentation for the
+					team}
+				\item{Generation of test plan, checklists and finish documentation}
+				\item{Analyzing test results}
+				\item{Exploratory testing, logging defects}
+			\end{itemize}
+		}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{EDUCATION}
+
+\begin{entrylist}
+	\entry
+		{\small{2010 -- 2012}}
+		{Master degree}
+		{Moscow Power Engineering Institute\slashsep \href{https://mpei.ru/}{mpei.ru}}
+		{Applied Solid State Physics}
+	\entry
+		{\small{2006 -- 2010}}
+		{Bachelor degree}
+		{Moscow Power Engineering Institute\slashsep \href{https://mpei.ru/}{mpei.ru}}
+		{Nanomaterials}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{1\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{about me}
+
+
+
+	Since 2011 untill 2018 I worked as an engineer at the Keldysh
+	research center.
+	My duties was:
+	\begin{itemize}
+		\setlength\itemsep{0pt}
+		\setlength\itemindent{-\baselineskip}
+		\item{Work on the laboratory equipment and scientific instruments}
+		\item{Stadying scientific literature}
+		\item{Preparing scientific reports and articles}
+	\end{itemize}
+
+
+\end{minipage}
+\hfill
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
